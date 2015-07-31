@@ -1,0 +1,137 @@
+<!-- To view, right click the file and open in your browser of choice -->
+<!DOCTYPE html> 
+
+<!-- Define the language of the webpage -->
+<html lang="en">
+
+<!-- Define the charset to be used -->
+<head meta charset="utf-8">
+	<!-- The title appears on the tab of the webpage in the browser -->
+	<title>HTML Syntax</title>
+	
+	<style>
+	body {
+		background-color:grey;
+		font-family:courier;
+		font-size: 120%;
+	}
+	
+	h1{
+		color:cyan;
+		text-align:center;
+	}
+	
+	h3 {
+		color:cyan;
+	}
+	
+	a {
+		color:cyan;
+	}
+	
+	p {
+		color:white;
+	}
+	
+	/* Bonus */
+	
+	#first-element {
+		background-color:black;
+		border:5px solid white;
+		padding:5px;
+		font-family:sans-serif;
+	}
+
+	#first-element, h2 {
+		color:cyan;
+	}
+	</style>
+</head>
+
+<!-- The bulk of the code goes here -->
+<body>
+	<!-- Heading number 1 -->
+	<h1>THIS IS THE MOST IMPORTANT HEADING</h1>
+	
+	<!-- Horizontal rule -->
+	<hr>
+	
+	<!-- Second heading -->
+	<h3>Topic One</h3>
+	
+	<hr>
+	
+	<!-- In this case, the title will appear when the paragraph is hovered
+	over. -->
+	<!-- The syntax for strong text is included as well, defining text that is 
+	important -->
+	<p title="Why Web Development?">
+	Web development is a lot of fun and isn't too <sub>difficult</sub> to pick up
+	(with practice of course).  It is a <i>great skill</i> to have, and 
+	nowadays, having an online presence is <strong>important</strong>.  You can 
+	<sup>document</sup> your skills in a <b>personal website</b>, maintain a <b>blog</b>,
+	and so much more! 
+	
+	<a href="https://www.google.ca">Here's a link to Google.</a>
+	</p>
+	
+	<hr>
+	
+	<!-- Add a picture, the file path should replace the hash symbol -->
+	<img src="#" alt="This is an image." width="200" height="100">
+	
+	<hr>
+	
+	<!-- Preformatted text -->
+	<pre style="color:cyan">
+	This text
+	will 
+	
+	appear exactly
+		like this!
+		
+	!!
+	</pre>
+	
+	<!-- Ordered and unordered lists, nested lists -->
+	<p>
+	Style this list using inline CSS
+	</p>
+	
+	<ol style="color:cyan">
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<ul>
+			<li>Nested list</li>
+			<!-- Sorry, I just had to. -->
+			<li>listception</li>
+		</ul>
+		<li>Item 3</li>
+	</ol>
+	
+	<hr>
+	
+	<!-- Defining "code blocks" with div and an id -->
+	<p>
+	As a bonus, see if you can recreate this!
+	<br>
+	The font name is sans-serif
+	</p>
+	
+	<div id="first-element">
+	<h2>What is a div?</h2>
+	<p>
+	The div element separates code into neat chunks that are easy to work with.
+	Everything with the id "first-element" (as in our case) can be styled in 
+	the same way as it is in one "div".  You'll really appreciate the
+	usefulness of "div" when we go through CSS and Bootstrap.
+	</p>
+	<!-- div elements have closing tags -->
+	</div>	
+</body>
+
+</html>
+
+
+
+
