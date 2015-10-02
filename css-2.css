@@ -1,0 +1,91 @@
+body {
+	background-color:#708090;
+	font-family:Courier;
+}
+
+/* style the main headings */
+
+#main-headings {
+	font-size:300%;
+	text-align:center;
+	text-shadow:2px 2px red;
+}
+
+#main-headings h3 {
+	/* make the sub-heading a little transparent (this'll look better depending on your colour/heading placement choices) */
+	opacity:0.65;
+	margin-left:250px;
+}
+
+/* style the navbar */
+
+nav {
+	/* fix the navbar to the top of the page, even when scrolling */
+	position:fixed;
+	/* a value of -20px works for the top margin so that the navbar is at the top
+	of the screen (use trial and error, it's a legitimate method!) */
+	top:-20px;
+	width:100%;
+	left:0px;
+	font-size:200%;
+	background-color:black;
+	display:inline;
+	list-style-type:none;
+	padding:20px;
+	/* higher z-index value => the element will sit on a higher "layer" on the page */
+	z-index:10;
+}
+
+
+nav a {
+	/* remove the underlines from the links */
+	text-decoration:none;
+	color:blue;
+}
+
+/* use a pseudo-class to style links more specifically */
+nav a:hover {
+	font-size:150%;
+}
+
+/* style the articles */
+.article-wrapper {
+	max-width:950px;
+	margin-left:500px;
+}
+
+
+/* style the aside */
+#aside-1 {
+	max-width:450px;
+	margin-left:1050px;
+	/* set the aside so that it is displayed beside the image */
+	position:relative;
+	bottom:500px;
+	z-index:1;
+}
+
+/* style the image (feel free to add any image you'd like from google in the HTML page) */
+#image-1 {
+	margin-left:500px;
+}
+
+/* style the footer */
+#footer {
+	/* fix the footer to the bottom of the page, even when scrolling */
+	position:fixed;
+	z-index:10;
+	/* At this point, you should use the property "bottom" with an appropriate
+	value to set the bottom margin (0 works to set it to sit at the bottom) */
+	bottom:0px; 
+	/* same thing for the left margin as for the bottom */
+	left:0px;
+    background-color:black;
+    color:#D3D3D3;
+    padding:15px;
+}
+
+
+
+
+
