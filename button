@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>JS Button</title>
+</head>
+
+<body>
+	<button type="button">I am a button</button>
+</body>
+
+</html>
