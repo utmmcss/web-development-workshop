@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>JS Form</title>
+</head>
+
+<body>
+	<form>
+		Name:
+		<br>
+		<input type="text" name="name">
+		<br>
+		
+		Program:
+		<br>
+		<input type="text" name="program">
+		<br>
+		
+		What is your favourite TV show?
+		<br>
+		<input type="text" name="tvshow">
+		<br><br>
+		
+		<input type="submit">
+	</form>
+</body>
+
+</html>
