@@ -1,1 +1,2 @@
-# web-development-workshop
+# Web Development Workshop
+- This workshop is designed to help you learn and implement the basics of HTML & CSS. Once you have learned these and would like to start your own site, head over to: [Making a Website with Github](https://github.com/utmmcss/making-a-website-with-github)
